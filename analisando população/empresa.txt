@@ -1,0 +1,3 @@
+Redney;2002;M;Estudante
+Dania;1996;F;Empregada
+Tania;1987;F;Farmanceutica

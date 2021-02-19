@@ -1,5 +1,5 @@
 from random import shuffle
-
+from modulos import *
 
 print('-'*20)
 print('Mega Sena'.center(20))
@@ -11,7 +11,7 @@ for c in range(1, 10):
     if c == 3 or c == 6 or c == 9:
         print()
 print('-'*20)
-op = int(input('Sua opção: '))
+op = LeiaInt('Sua opção: ')
 
 if valores[op-1] > 0:
     print(f'\033[1;32mVocê ganhou {valores[op-1]}€\033[m')
